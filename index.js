@@ -5,7 +5,7 @@ const app = express();
 let PORT=process.env.PORT ?? 8080 ;
 
 app.get('/home',(req,res)=>{
-    return res.json({msg:"welcome to github-actions demo"});
+    return res.json({msg:"welcome to github-actions demo FOR YOU"});
 })
 
 app.listen(PORT,(req,res)=>{
